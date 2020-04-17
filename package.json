@@ -1,0 +1,33 @@
+{
+  "name": "internals-js-bundler",
+  "version": "1.0.0",
+  "description": "A simple codebase to build a bundler to understand its internals",
+  "main": "bundler.js",
+  "scripts": {
+    "debug": "node --inspect-brk bundler.js",
+    "start": "node bundler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ask-imran/internals-js-bundler.git"
+  },
+  "keywords": [
+    "javascript-internals",
+    "bundlers",
+    "webpack"
+  ],
+  "author": "ask-imran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ask-imran/internals-js-bundler/issues"
+  },
+  "homepage": "https://github.com/ask-imran/internals-js-bundler#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
